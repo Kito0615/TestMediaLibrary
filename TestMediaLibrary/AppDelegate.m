@@ -17,6 +17,18 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
+    
+    _rootVC = [[RootViewController alloc] initWithNibName:@"RootViewController" bundle:[NSBundle mainBundle]];
+    
+    [self.window.contentView addSubview:_rootVC.view];
+    
+    //
+    //    _rootView = [[RootView alloc] init];
+    //
+    //    _rootView.frame = NSMakeRect(self.window.frame.origin.x, self.window.frame.origin.y, self.window.frame.size.width, self.window.frame.size.height - 22);
+    //
+    //    [self.window.contentView addSubview:_rootView];
+    //    
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {

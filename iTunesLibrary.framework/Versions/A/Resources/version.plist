@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildAliasOf</key>
+	<string>iTunes</string>
+	<key>BuildVersion</key>
+	<string>2</string>
+	<key>CFBundleShortVersionString</key>
+	<string>12.2.2</string>
+	<key>CFBundleVersion</key>
+	<string>12.2.2.25</string>
+	<key>ProductBuildVersion</key>
+	<string>1222C26</string>
+	<key>ProjectName</key>
+	<string>iTunesLibrary</string>
+	<key>SourceVersion</key>
+	<string>1200012002002025</string>
+</dict>
+</plist>

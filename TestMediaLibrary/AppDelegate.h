@@ -7,8 +7,14 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "RootView.h"
+#import "RootViewController.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
+{
+    RootView * _rootView;
+    RootViewController * _rootVC;
+}
 
 
 @end
